@@ -1,7 +1,7 @@
 name: zip
-version: 0.2.0
-description: package your file as .zip
-kyewords:
+version: 0.3.0
+description: package your file as .zip (no extra deps)
+keywords:
   - package
 properties:
     input:

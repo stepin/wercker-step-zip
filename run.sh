@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # Environmental variables
 INPUT="$WERCKER_ZIP_INPUT"
@@ -16,7 +17,7 @@ mkdir -p ${OUTPUT}
 for TARGET in $(find ${INPUT} -mindepth 1 -maxdepth 1 -type d); do
     ARCHIVE_NAME=$(basename ${TARGET})
     pushd ${TARGET}
-    zip -r ${OUTPUT}/${ARCHIVE_NAME}.zip ./*
+    $WERCKER_STEP_ROOT/bin/zip -r ${OUTPUT}/${ARCHIVE_NAME}.zip ./*
     popd
 done
 

@@ -1,3 +1,8 @@
+## 0.3.0 (2016-01-06)
+
+- bundled zip binary
+- fail on any bash error
+
 ## 0.2.0 (2015-07-12)
 
 ### Added
