@@ -1,6 +1,6 @@
 name: zip
-version: 0.3.0
-description: package your file as .zip (no extra deps)
+version: 0.3.1
+description: Package your file as .zip (no extra deps).
 keywords:
   - package
 properties:

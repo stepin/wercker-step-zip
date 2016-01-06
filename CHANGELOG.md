@@ -1,4 +1,4 @@
-## 0.3.0 (2016-01-06)
+## 0.3.1 (2016-01-06)
 
 - bundled zip binary
 - fail on any bash error
